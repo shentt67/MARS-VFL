@@ -56,7 +56,7 @@ python main.py --dataset UCIHAR --device 0 --epoch 150 --batch_size 256 --lr 0.0
 ```
 Change the **--perturb_type** argument for different perturbations (missing, corrupted, misaligned), and Change the **--method_name** argument for different methods (*leefvfl*, *laservfl*, *augvfl*, *realvfl*).
 #### Security
-For instance, to evaluate the **PMC** method on UCI-HAR dataset:
+For instance, to evaluate the *pmc* method on UCI-HAR dataset:
 ```bash
 python main.py --dataset UCIHAR --device 0 --epoch 150 --batch_size 64 --lr 0.01 --client_num 2 --aggregation concat --eval_mode security --method_name pmc --optimizer sgd --seeds 100
 ```

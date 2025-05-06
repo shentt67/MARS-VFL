@@ -18,14 +18,14 @@ pip install requirements.txt
 ### 2. Datasets
 We use 12 different public datasets across five real-world applications:
 #### Human Activity Recognition
-- UCI-HAR: The data can be downloaded at [UCI-HAR](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones).
-- KU-HAR: The data can be downloaded at [KU-HAR](https://www.kaggle.com/datasets/niloy333/kuhar).
+- UCI-HAR: [UCI-HAR](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones).
+- KU-HAR: [KU-HAR](https://www.kaggle.com/datasets/niloy333/kuhar).
 #### Robotics
 - MUJOCO: Download the data from links: [gentle_push_10.hdf5](https://drive.google.com/file/d/1qmBCfsAGu8eew-CQFmV1svodl9VJa6fX/view), [gentle_push_300.hdf5](https://drive.google.com/file/d/18dr1z0N__yFiP_DAKxy-Hs9Vy_AsaW6Q/view), [gentle_push_1000.hdf5](https://drive.google.com/file/d/1JTgmq1KPRK9HYi8BgvljKg5MPqT_N4cR/view).
-- VISION&TOUCH: The data can be downloaded at [VISION&TOUCH](https://github.com/stanford-iprl-lab/multimodal_representation).
+- VISION&TOUCH: [VISION&TOUCH](https://github.com/stanford-iprl-lab/multimodal_representation).
 #### Healthcare
-- MIMIC-III: The dataset and processing tools can be found at [MIMIC-III](https://mimic.mit.edu/).
-- PTB-XL: The data can be found at [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/).
+- MIMIC-III: [MIMIC-III](https://mimic.mit.edu/).
+- PTB-XL: [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/).
 #### Emotion Analysis
 - UR-FUNNY: [UR-FUNNY](https://drive.google.com/drive/folders/1Agzm157lciMONHOHemHRSySmjn1ahHX1?usp=sharing).
 - MUSTARD: [MUSTARD](https://drive.google.com/drive/folders/1JFcX-NF97zu9ZOZGALGU9kp8dwkP7aJ7?usp=sharing).
@@ -65,3 +65,5 @@ Change the **--method_name** argument for evaluating different methods (*pmc*, *
 ### 4. Integrate New Methods
 
 The implementations of all evaluated methods are provided in `.\method`, and can be easily extended to include new methods.
+
+## Citation
